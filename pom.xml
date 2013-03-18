@@ -38,7 +38,7 @@
         <sdk.extras.google.play.licensing.path>${sdk.extras.path}/google/play_licensing</sdk.extras.google.play.licensing.path>
         <sdk.tools.path>${android.sdk.path}/tools</sdk.tools.path>
         <sdk.tools.annotations.path>${android.sdk.path}/tools/support</sdk.tools.annotations.path>
-        <platform.android.groupid>android</platform.android.groupid>
+        <platform.android.groupid>com.google.android</platform.android.groupid>
         <platform.android.artifactid>android</platform.android.artifactid>
         <addon.googlemaps.groupid>com.google.android.maps</addon.googlemaps.groupid>
         <addon.googlemaps.artifactid>maps</addon.googlemaps.artifactid>
@@ -52,15 +52,15 @@
         <extras.google.play.apk.expansion.groupid>com.google.android.apk.expansion</extras.google.play.apk.expansion.groupid>
         <extras.google.play.licensing.groupid>com.google.android.licensing</extras.google.play.licensing.groupid>
 
-        <extras.compatibility.groupid>android.support</extras.compatibility.groupid>
+        <extras.compatibility.groupid>com.google.android</extras.compatibility.groupid>
 
         <extras.compatibility.v4.groupid>${extras.compatibility.groupid}</extras.compatibility.v4.groupid>
-        <extras.compatibility.v4.artifactid>compatibility-v4</extras.compatibility.v4.artifactid>
-        <extras.compatibility.v4.version.prefix></extras.compatibility.v4.version.prefix>
+        <extras.compatibility.v4.artifactid>support-v4</extras.compatibility.v4.artifactid>
+        <extras.compatibility.v4.version.prefix>r</extras.compatibility.v4.version.prefix>
 
         <extras.compatibility.v13.groupid>${extras.compatibility.groupid}</extras.compatibility.v13.groupid>
-        <extras.compatibility.v13.artifactid>compatibility-v13</extras.compatibility.v13.artifactid>
-        <extras.compatibility.v13.version.prefix></extras.compatibility.v13.version.prefix>
+        <extras.compatibility.v13.artifactid>support-v13</extras.compatibility.v13.artifactid>
+        <extras.compatibility.v13.version.prefix>r</extras.compatibility.v13.version.prefix>
 
         <tools.annotations.groupid>com.google.android.annotations</tools.annotations.groupid>
     </properties>
