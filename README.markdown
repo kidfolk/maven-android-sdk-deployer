@@ -319,7 +319,7 @@ For the usb add on
 <dependency>
   <groupId>com.android.future</groupId>
   <artifactId>usb</artifactId>
-  <version>17_r1</version>
+  <version>17_r2</version>
   <scope>provided</scope>
 </dependency>
 ```
@@ -405,7 +405,7 @@ For the Google AdMob Ads extra (ATTENTION! Do NOT use provided scope!!)
 <dependency>
   <groupId>com.google.android.admob</groupId>
   <artifactId>admob</artifactId>
-  <version>6.3.0-r9</version>
+  <version>6.3.1-r10</version>
 </dependency>
 ```
 
@@ -439,6 +439,24 @@ For the Android annotations tools
   <scope>provided</scope>
 </dependency>
 ```
+
+For the uiautomator jar
+
+```xml
+<dependency>
+  <groupId>android.test.uiautomator</groupId>
+  <artifactId>uiautomator</artifactId>
+  <version>4.1.2_r4</version>
+  <scope>provided</scope>
+</dependency>
+
+<dependency>
+  <groupId>android.test.uiautomator</groupId>
+  <artifactId>uiautomator</artifactId>
+  <version>4.2.2_r2</version>
+  <scope>provided</scope>
+</dependency>
+```
     
 For the Google Play Services extra (ATTENTION! Do NOT use provided scope!!)
 
@@ -446,13 +464,13 @@ For the Google Play Services extra (ATTENTION! Do NOT use provided scope!!)
 <dependency>
   <groupId>com.google.android.gms</groupId>
   <artifactId>google-play-services</artifactId>
-  <version>4</version>
+  <version>5</version>
   <type>apklib</type>
 </dependency>
 <dependency>
   <groupId>com.google.android.gms</groupId>
   <artifactId>google-play-services</artifactId>
-  <version>4</version>
+  <version>5</version>
   <type>jar</type>
 </dependency>
 ```

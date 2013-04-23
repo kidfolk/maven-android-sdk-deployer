@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.simpligility.android.sdk-deployer</groupId>
     <artifactId>maven-android-sdk-deployer</artifactId>
-    <version>2.2.0</version>
+    <version>2.2.1</version>
     <packaging>pom</packaging>
     <name>Maven Android SDK Deployer</name>
     <description>The Maven Android SDK Deployer is a helper maven project that can be used to install the libraries
@@ -40,6 +40,8 @@
         <sdk.tools.annotations.path>${android.sdk.path}/tools/support</sdk.tools.annotations.path>
         <platform.android.groupid>com.google.android</platform.android.groupid>
         <platform.android.artifactid>android</platform.android.artifactid>
+        <platform.uiautomator.groupid>android.test.uiautomator</platform.uiautomator.groupid>
+        <platform.uiautomator.artifactid>uiautomator</platform.uiautomator.artifactid>
         <addon.googlemaps.groupid>com.google.android.maps</addon.googlemaps.groupid>
         <addon.googlemaps.artifactid>maps</addon.googlemaps.artifactid>
         <addon.android.future.usb.groupid>com.android.future</addon.android.future.usb.groupid>
@@ -57,6 +59,10 @@
         <extras.compatibility.v4.groupid>${extras.compatibility.groupid}</extras.compatibility.v4.groupid>
         <extras.compatibility.v4.artifactid>support-v4</extras.compatibility.v4.artifactid>
         <extras.compatibility.v4.version.prefix>r</extras.compatibility.v4.version.prefix>
+
+        <extras.compatibility.v7.groupid>${extras.compatibility.groupid}</extras.compatibility.v7.groupid>
+        <extras.compatibility.v7.artifactid>compatibility-v7</extras.compatibility.v7.artifactid>
+        <extras.compatibility.v7.version.prefix></extras.compatibility.v7.version.prefix>
 
         <extras.compatibility.v13.groupid>${extras.compatibility.groupid}</extras.compatibility.v13.groupid>
         <extras.compatibility.v13.artifactid>support-v13</extras.compatibility.v13.artifactid>
