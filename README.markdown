@@ -17,7 +17,7 @@ Contributors:
 - Benoit Billington https://github.com/Shusshu Google Cloud Messaging Client and Server, annotations.jar, 4.2, APK Expansion, Licensing
 - Michael Lake https://github.com/mlake support for Javadoc attachment for platforms
 - Nic Strong http://www.codepoets.co.nz Google Play Services (gms)
-- Matias Dumrauf http://github.com/mdumrauf - compatibility v7 library support
+- Matias Dumrauf http://github.com/mdumrauf - Compatibility v7 library support, Google Analytics support for V1 and V2
 - https://github.com/skyisle minor documentation fix                            
 - Viacheslav Rodionov https://github.com/bepcyc AdbMob update
 - David Venable https://github.com/dlvenable admob update
@@ -391,11 +391,20 @@ In order to use v7 extra, both dependencies (apklib & jar) are needed
 
 For the Google Analytics extra (ATTENTION! Do NOT use provided scope!!)
 
+Google Analytics V1 (old)
 ```xml
 <dependency>
   <groupId>com.google.android.analytics</groupId>
   <artifactId>analytics</artifactId>
   <version>2</version>
+</dependency>
+```
+Google Analytics V2
+```xml
+<dependency>
+  <groupId>com.google.android.analytics</groupId>
+  <artifactId>analytics</artifactId>
+  <version>3</version>
 </dependency>
 ```
 
@@ -405,7 +414,7 @@ For the Google AdMob Ads extra (ATTENTION! Do NOT use provided scope!!)
 <dependency>
   <groupId>com.google.android.admob</groupId>
   <artifactId>admob</artifactId>
-  <version>6.3.1-r10</version>
+  <version>6.4.1-r11</version>
 </dependency>
 ```
 
@@ -464,13 +473,13 @@ For the Google Play Services extra (ATTENTION! Do NOT use provided scope!!)
 <dependency>
   <groupId>com.google.android.gms</groupId>
   <artifactId>google-play-services</artifactId>
-  <version>5</version>
+  <version>6</version>
   <type>apklib</type>
 </dependency>
 <dependency>
   <groupId>com.google.android.gms</groupId>
   <artifactId>google-play-services</artifactId>
-  <version>5</version>
+  <version>6</version>
   <type>jar</type>
 </dependency>
 ```
